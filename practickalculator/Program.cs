@@ -27,14 +27,25 @@ do
         Console.WriteLine("Введите второе число:");
         user_input_numB = Console.ReadLine();
 
-        float a = Convert.ToSingle(user_input_numA);
-        float b = Convert.ToSingle(user_input_numB);
-
         float a2;
         float b2;
 
         bool a1 = Single.TryParse(user_input_numA, out b2);
         bool b1 = Single.TryParse(user_input_numB, out b2);
+
+
+        if ((a1 & b1) == true)
+        {
+            byte p;
+        }
+        else
+        {
+            Console.WriteLine("Введите число!!!");
+        }
+
+        float a = Convert.ToSingle(user_input_numA);
+        float b = Convert.ToSingle(user_input_numB);
+
 
 
         if ((a1 & b1) == true)
